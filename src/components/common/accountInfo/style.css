@@ -1,0 +1,11 @@
+.agent-minichart_icon{
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    position:absolute;
+	margin-top: 22px !important;
+}
+.mr-asscrollbar{
+    position: relative;
+    width: 20px;
+}

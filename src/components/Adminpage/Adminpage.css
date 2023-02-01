@@ -1,0 +1,282 @@
+.admin-header{
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 600;
+    
+}
+.log-inout{
+    font-size: 1.2rem;
+    color: #1073d3;
+    font-weight: 600;
+    margin-left: 3rem;
+    cursor: pointer;
+}
+
+.div-userinput{
+  width: 100%;
+  position: relative;
+  border-bottom: 2px solid #adadad;
+  margin-bottom: 37px;
+}
+
+.logo-image{
+  object-fit: fill;
+}
+.user-data{
+    background-color: #17181a;
+    padding: 10px 20px !important;
+    border-radius: 1rem;
+    font-size: 0.7rem;
+    height: calc(95% - 60px);
+    margin-top: 70px;
+    position: relative;
+}
+.icon-previous{
+  left: 0;
+    float: left;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 10px;
+    margin-left: -0.3rem;
+    position: absolute;
+    
+}
+.icon-next{
+  position: absolute;
+  right: 0px;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 10px;
+  margin-right: -0.3rem;
+}
+.data-container{
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    overflow-y: scroll;
+}
+List{
+    background-color: #17181a;
+}
+
+.data-container p{
+    color: white;
+}
+.title-data-container{
+    font-size: 1.2rem;
+    color: #1389ff;
+    font-weight: 600;
+    text-align: start;
+    padding: 5px 10px;
+}
+
+.subtitle{
+    color: #888888 !important;
+}
+::-webkit-scrollbar-corner {
+  background: rgba(0,0,0,0);
+}
+.table-container{
+    padding-bottom: 10px;
+    display: inline-flex;
+    white-space: nowrap;
+    width: 100%;
+    max-height: 55.2vh;
+    overflow-x: auto;
+    animation-duration: 3s;
+}
+::-webkit-scrollbar {
+  width: 1em;
+  height: 1em
+}
+table {
+  font-weight: 300;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  table-layout: auto;
+}
+.account-table{
+  margin-right: 20px;
+}
+.account-input>input{
+  width: 147px;
+  line-height: 0.5rem;
+  font-size:13px;
+}
+.account-input{
+  padding: 0px 15px !important;
+}
+.account-table td {
+  font-weight: 300;
+  font-size:13px;
+  border: 1px solid #353535;
+  text-align: left;
+  padding: 3px 15px;
+  line-height: 0.5rem;
+  vertical-align:bottom;
+}
+  td input{
+    font-size: 0.7rem;
+  }
+  /* tr:nth-child() {
+    background-color: #888888;
+  } */
+  tr:hover{
+    background-color: rgba(175, 175, 175, 0.1);
+  }
+  tr:nth-child(0):hover {
+    background-color: #17181a;
+  }
+  td:last-child{
+    text-align: center;
+    cursor: pointer;
+  }
+  input{
+    background:none;
+    color: white;
+    width: auto;
+    text-align: left;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+  }
+  input::hover{
+    background: none;
+    border: none;
+  }
+  .inputStyle{
+   border-bottom: solid 1px white;
+   animation: inputEffect 1s;
+   padding-bottom: 2px;
+   outline: none;
+  }
+  @keyframes inputEffect
+  {
+    from {width:0% ;}
+    to {width:100% ;}
+  }
+
+  /* #loginform{
+    max-width: 500px;
+    min-width: 300px;
+    max-height: 700px;
+    width: 30%;
+    height: 60%;
+    margin: 100px auto;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+  }
+   */
+  #headerTitle{
+    text-align: center;
+    font-family: 'open sans', sans-serif;
+    padding: 2rem 0;
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  .row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    max-width: 100%;
+  }
+  .row-first{
+    padding-top: 5rem;
+  }
+  .row input{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    font-size: 1.3rem;
+    padding-left: 1.5rem;
+    padding-bottom: 0.7rem;
+    box-shadow: inset 0px -3px 0px 0px rgba(187,187,187,0.2);
+    transition: box-shadow 0.2s ease-in;
+  }
+  
+  .row input:focus{
+     box-shadow: inset 0px -3px 0px 0px ;
+     outline: none;
+  }
+  
+  .row input::-webkit-input-placeholder{
+    bottom: 2rem;
+    transition: opacity 0.25s ease-out;
+  }
+  
+  .row input:hover::-webkit-input-placeholder,
+  .row input:focus::-webkit-input-placeholder{
+    bottom: 2rem;
+  }
+  
+  .row label{
+    align-self: start;
+    padding-bottom: 1rem;
+    color: rgba(187,187,187,0.9);
+  }
+  
+  .row button{
+    border-radius: 25px;
+    width: 80%;
+    height: 40px;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 700;
+    background: -webkit-linear-gradient(right,#b721ff,#21d4fd);
+    border: 0px;
+    cursor: pointer;
+    transition: opacity 0.25s ease-out;
+  }
+  
+  .row button:hover{
+    /* opacity: 0.8; */
+    background: -webkit-linear-gradient(left,#b721ff,#21d4fd);
+  }
+  
+  #button{
+    padding-bottom: 1.5rem;
+  }
+  
+  #facebookIcon{
+    background-image:      url("https://image.flaticon.com/icons/svg/145/145802.svg");
+    background-repeat: no-repeat;
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  #twitterIcon{
+    background-image: url("https://image.flaticon.com/icons/svg/145/145812.svg");
+    background-repeat: no-repeat;
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  #googleIcon{
+    background-image: url("https://image.flaticon.com/icons/svg/145/145804.svg");
+    background-repeat: no-repeat;
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  #iconGroup{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+  }
+  
+  #iconGroup a{
+    margin: 0 0.6rem;
+  }
+  
+  #alternativeLogin {
+     text-align: center;
+     padding-top: 2rem;
+     margin-top: 1.5rem;
+  }

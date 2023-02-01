@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: Calibri;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.tv-widget-chart.tv-widget-chart--with-border {
+  border: none !important;
+}
+
+.Ag-usertype, .Cl-usertype {
+  font-size: 1.4rem;
+  font-style: italic;
+  font-weight: 300;
+}
+.Ag-usertype {
+  color: #00f0b0;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 10px;
+}

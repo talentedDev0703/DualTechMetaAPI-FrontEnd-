@@ -1,0 +1,100 @@
+.Dashboard{
+    font-size: 3rem;
+    text-align: left;
+    float: left;
+    background: -webkit-linear-gradient(60deg,#b721ff,#21d4fd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.dashboard-user{
+    cursor: pointer;
+    color: white;
+    margin-top: 3vh;
+    margin-left: 3%;
+}
+.dashboard-username{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-right: 2rem;
+    color: #21d4fd;
+}
+.header-user{
+    cursor: pointer;
+    color: white;
+    margin-top: 1vh;
+    margin-left: 3%;
+}
+.finance-dashboard{
+    display: flex;
+    justify-content: space-around;
+    background-color: #17181a;
+    border-radius: 10px;
+    padding: 10px 10px; 
+    margin-top: 1vh;
+    margin-bottom: 1.5vh;
+    line-height: 1.5rem !important;
+    font-size: 0.9rem;
+}
+.client_list {
+    height: 47vh;
+    overflow-y: auto;
+}
+.finance-dashboard p {
+    text-align: right;
+    color: white;
+}
+.adf{
+    display: flex;
+}
+.Alertprice{
+    font-size: 0.8rem !important;
+    background-color: #606060;
+    padding: 3px 5px;
+    border-radius: 5px;
+    margin-right: 0 !important;
+    margin-left: 4px;
+}
+.button-logout{
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: 400;
+    background: -webkit-linear-gradient(right,#b721ff,#21d4fd);
+    border: 0px;
+    cursor: pointer;
+    transition: opacity 0.25s ease-out;
+    margin-left: 2vw;
+    margin-top: 20px;
+    white-space: nowrap;
+}
+.button-logout:hover{
+    background: -webkit-linear-gradient(left,#b721ff,#21d4fd);
+
+}
+.minichart_icon{
+    margin-top: 42px;
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+.agent-userlist{
+    margin-top: 0;
+}
+.Ag-uertype{
+	font-size:1.4rem;
+	font-weight:400;
+	font-style:italic;
+	color:#00f0b0;
+	margin-right:15px;
+	margin-left:15px;
+}
+.Cl-uertype{
+	font-size:1.4rem;
+	font-weight:400;
+	font-style:italic;
+	color:#808080;
+	margin-right:15px;
+	margin-left:15px;
+}

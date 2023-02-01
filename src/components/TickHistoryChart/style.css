@@ -1,0 +1,16 @@
+.currency_div {
+    width: 160px;
+    background: #303030;
+    /* color: black; */
+    border: none;
+    position: absolute;
+    z-index: 3000;
+}
+
+.mychart-container{
+    position: relative;
+}
+
+.currency_div *{
+    background: none;
+}

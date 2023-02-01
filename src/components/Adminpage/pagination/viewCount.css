@@ -1,0 +1,20 @@
+.view-count{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    left: 10%;
+  }
+  label{
+    margin-right: 10px;
+    font-size: 13px;
+    color: #a0a0a0;
+  }
+  select{
+    width: max-content;
+    padding: 5px 35px 5px 5px;
+    border: solid 1px #353535;
+    background-color: #17181a;
+    font-size: 13px;
+    color: #a0a0a0;
+    border-radius: 5px;
+  }

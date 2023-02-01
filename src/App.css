@@ -1,0 +1,26 @@
+/* .tv-widget-chart__nav {
+  display: none !important;
+}
+
+.tv-widget-chart__head,.js-head {
+  display: none !important;
+}
+
+.tv-widget-chart__copyrightingContainer:before {
+  display: none !important;
+}
+
+.tradingview-widget-container:before {
+  display: none !important;
+} 
+.tv-widget-chart__container-wrapppe1{
+  margin-bottom: 100px;
+}
+
+
+.tv-widget-chart.tv-widget-chart--with-border {
+  border: none !important;
+} */
+body{
+  line-height: 1.5rem;
+}

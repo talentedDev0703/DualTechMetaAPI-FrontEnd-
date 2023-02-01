@@ -1,0 +1,263 @@
+.userlist-tooltip{
+    width: 100px;
+    height: 100px;
+}
+.toolTip{
+    font-size: 1rem;
+    color: white;
+}
+.user-list{
+    width: 1.5rem;
+    height: 1.5rem;
+    float: right;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+.orders_theader>th{
+    text-align: center;
+}
+.userListPanel{
+    width: 150px;
+    margin-top: 100px;
+    overflow-y: scroll;
+    height: 150px;
+    background-color: #181818;
+    border: solid 1px white;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+@keyframes userListAnime{
+    from {opacity: 0; transform: scale(0.5);margin-left: -60px;}
+    to {opacity: 1; transform: scale(1);margin-left: 0px;}
+}
+.userListPanel p{
+    color: white;
+    cursor: pointer;
+}
+.userListPanel:hover {
+    color: rgb(127, 193, 255);
+}
+.userListPanel .active{
+    color: aquamarine;
+}
+.trade-inf th{
+    color: #eee;
+}
+.symbolListPanel{
+    margin-top: 66px;
+    height: 150px;
+    overflow-y: scroll;
+    background-color: #181818;
+    border: solid 1px white;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+@keyframes symbolListAnime{
+    from {opacity: 0; transform: scale(0.5);margin-left: -100px;}
+    to {opacity: 1; transform: scale(1);margin-left: 0px;}
+}
+.symbolListPanel p{
+    color: white;
+    cursor: pointer;
+}
+.symbolListPanel .active{
+    color: aquamarine;
+}
+.color-list{
+    float: right;
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+.color-container{
+    animation: tooltip-animation 0.2s ;
+  }
+.exclaimToolTip-container{
+    animation: tooltip-animation 0.2s ;
+    margin-left: -43px;
+  }
+.user-container{
+    animation-name: userListAnime;
+    animation-duration: 0.2s;
+    display: flex;
+}
+.exclamStyle{
+    color: #00b0f0;
+}
+.symbol-container{
+    animation-name: symbolListAnime;
+    animation-duration: 0.2s;
+    display: flex;
+}
+.trade-container{
+
+    animation-name: tradePanelAnime;
+    animation-duration: 0.2s;
+    display: flex;
+}
+  @keyframes tooltip-animation {
+    from {opacity: 0; transform: scale(0.9);  margin-top: -3rem;height: 0;}
+    to {opacity: 1; transform: scale(1);  margin-top: 0rem;height: 100%;}
+  }
+.triangle {
+    width: 150px;
+    height: 40px;
+    clip-path: polygon(90% 0%, 100% 100%, 0% 100%);
+    background: linear-gradient(rgba(255,255,255,0.1) 0%, rgba(240,240,240, 0.8) 100%);
+    margin-top: -10px;
+}
+.triangle1 {
+    margin-top: 100px;
+    width: 40px;
+    height: 170px;
+    clip-path: polygon(0% 20%, 100% 3%, 100% 92%);
+    background: linear-gradient(rgba(255,255,255,0.1) 0%, rgba(240,240,240, 0.8) 100%);
+    margin-left: -10px;
+}
+.triangle2 {
+    margin-top: 71px;
+    width: 50px;
+    height: 150px;
+    clip-path: polygon(0% 28%, 100% 0%, 100% 100%);
+    background: linear-gradient(rgba(255,255,255,0.1) 0%, rgba(240,240,240, 0.8) 100%);
+    margin-left: -8px;
+}
+.triangle3 {
+    margin-bottom: -2rem;
+    width: 40px;
+    height: 250px;
+    clip-path: polygon(100% 66%, 0% 2%, 0% 86%);
+    background: linear-gradient(rgba(255,255,255,0.1) 0%, rgba(240,240,240, 0.8) 100%);
+    margin-right: -37px;
+}
+.triangleTransfer {
+    width: 170px;
+    height: 40px;
+    clip-path: polygon(63% 100%, 100% 0%, 0% 0%);
+    background: linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(240,240,240, 0.8) 100%);
+    margin-bottom: -8px;
+}
+.colorToolTip-panel{
+    margin: 0px 0px;
+    margin-right: 8rem;
+    background-color: #0a0a0a;
+    padding: 2px 3px;
+    border:solid 1px white;
+    border-radius: 4px;
+}
+.exclaimToolTip-panel{
+    margin: 0px 0px;
+    background-color: #181818;
+    padding: 2px 10px;
+    border:solid 1px white;
+    border-radius: 4px;
+}
+.exclaimToolTip-panel p:last-child{
+    color: red;
+}
+.chart-option{
+    background-color: #17181a;
+    float: left;
+    margin-top: 5px;
+}
+.big-2{
+    width: 1.55rem !important;
+    height: 1.5rem !important;
+    padding: 2px 2px;
+}
+.big-2:hover{
+    border: solid 1px white;
+    padding: 1px 1px;
+}
+.colorPan{
+    stroke-width: 0;
+    stroke: none;
+    cursor: pointer;
+}
+.symbolsetting{
+    float: right;
+    cursor: pointer;
+    width: 1.3rem;
+    height: 1.3rem;
+    vertical-align: text-bottom;
+}
+.symbolsetting:active{
+    stroke: #b8b8b8;
+    stroke-width: 2.5px;
+}
+.d-inflex{
+    display: inline-flex;
+    vertical-align: bottom;
+}
+.trade-list{
+    cursor: pointer;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    right: calc(0.8vw + 23px);
+    bottom: 9px;
+    color: white;
+}
+.trade-inf{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    background-color: #17181a;
+    border: solid 1px white;
+    border-radius: 10px;
+    padding: 10px 10px !important; 
+    margin-bottom: 2.8rem;
+    font-size: 0.9rem;
+    height: 200px;
+    overflow-y: scroll;
+}
+@keyframes tradePanelAnime{
+    from {opacity: 0; transform: scale(0.5);  margin-right: -10rem;}
+    to {opacity: 1; transform: scale(1);  margin-right: 0rem;}
+}
+.trade-inf span{
+    color: white;
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+.trade-inf p{
+    margin-bottom: 0.4rem;
+}
+
+.fullborder-right{
+    border-right: solid 1px grey;
+    position: sticky;
+    height: 100%;
+    position: -webkit-sticky;
+    top: 0;
+    padding: 5px;
+}
+.transferTitle{
+    display: flex;
+}
+
+table td {
+    padding: 7px;
+}
+
+#position_history td {
+    border: none !important;
+}
+
+#position_history tr:nth-child(even) {
+    border-bottom: 1px solid #777676;
+}
+#position_history tr:nth-child(odd) {
+    border-top: 1px solid #353535;
+}
+
+#position_history tr:hover{
+    background-color: unset;
+}
+
+.closeTradeBtn {
+    padding: 10px;
+    position: absolute;
+    top: -22px;
+}
